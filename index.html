@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="jp">
 
 	<head>
 		<meta charset="utf-8">
@@ -56,19 +56,19 @@
 						<li>Demo</li>
 						<li>既存開発との比較</li>
 						<li>もっと便利に</li>
-						<li>所感</li>
+						<li>まとめ</li>
 					</ul>
 				</section>
 
 				<section>
-					<h2>アジェンダ</h2>
+					<h3>アジェンダ</h3>
 					<ul>
 						<li><font color="red">Xamarinとは</font></li>
 						<li>Xamarinでの開発</li>
 						<li>Demo</li>
 						<li>既存開発との比較</li>
 						<li>もっと便利に</li>
-						<li>所感</li>
+						<li>まとめ</li>
 					</ul>
 				</section>
 				<section>
@@ -77,11 +77,11 @@
 				</section>
 
 				<section>
-					<h4>そもそもクロスプラットフォームエンジンって？</h4>
+					<h4>クロスプラットフォームエンジンとは</h4>
 					<ul>
 						<li>ひとつのソースで複数の環境で動くアプリが作れる</li>
-						<li>アプリの開発したことなくても作れる</li>
-						<li>UIは各プラットフォーム間で同じになる</li>
+						<li>javascriptで書けるものとかC++で書ける物とか色々</li>
+						<li>アプリの開発したことなくても作れたりする</li>
 					</ul>
 				</section>
 
@@ -89,6 +89,7 @@
 					<h4>クロスプラットフォームで目指すところ</h4>
 					<ul>
 						<li>短納期・多デバイス</li>
+						<li>バグを少なく、仕様差を少なく</li>
 					</ul>
 				</section>
 
@@ -101,15 +102,16 @@
 					</ul>
 				</section>
 				<section>
-					<p>そこでXamarin</p>
+					<p>そこで</p>
+					<img src="./xamarin-horizontal-blue@2x.png" style="background-color:#FFFFFF">
 				</section>
 				
 				<section>
 					<p>良いところ</p>
 					<ul>
 						<li>UIを分けられる</li>
-						<li>既存開発の資産を活用できる</li>
-						<li>ライブラリが薄い</li>
+						<li>既存開発との差が少なく学習コストが低い</li>
+						<li>重くない！</li>
 					</ul>
 				</section>
 
@@ -117,8 +119,7 @@
 					<p>できること</p>
 					<ul>
 						<li>C＃で各OSのAPIを叩く</li>
-						<li>ビジネスロッジクの共有</li>
-						<li>過去の資産の活用</li>
+						<li>ビジネスロジックの共有</li>
 					</ul>
 				</section>
 
@@ -140,67 +141,62 @@
 				</section>
 
 				<section>
-					<h2>アジェンダ</h2>
+					<h3>アジェンダ</h3>
 					<ul>
 						<li>Xamarinとは</li>
 						<li><font color="red">Xamarinでの開発進め方</font></li>
 						<li>Demo</li>
 						<li>既存開発との比較</li>
 						<li>もっと便利に</li>
-						<li>所感</li>
+						<li>まとめ</li>
 					</ul>
 				</section>
 				<section>
-					<h3>iOSアプリ開発</h3>
+					<h2>前提条件</h2>
+					<p>下記がインストール済み</p>
 					<ul>
-						<p>開発、ビルド、デバック</p>
-						<li>Windows(VisualStudio)とMac</li>
-						<li>Mac(Xamarin Studio)</li>
-					</ul>
-					<ul>
-						<p>画面構成</p>
-						<li>iOS Designer</li>
-						<li>C#で記述</li>
-					</ul>
-					<ul>
-						<p>コード</p>
-						<li>C#でiOSのAPIを叩く</li>
-					</ul>
-					<ul>
-						<p>資産活用</p>
-						<li>バインディング(Objective-C)</li>
+						<li>AndroidSDKとかJDKとか</li>
+						<li>iOS SDKとかXcode</li>
 					</ul>
 				</section>
-				<section>
-					<h3>Androidアプリ開発</h3>
-					<ul>
-						<p>開発、ビルド、デバック</p>
-						<li>Windows(VisualStudio)</li>
-						<li>Mac(Xamarin Studio)</li>
-					</ul>
-					<ul>
-						<p>画面構成</p>
-						<li>UI Designer</li>
-						<li>C#で記述</li>
-					</ul>
-					<ul>
-						<p>コード</p>
-						<li>C#でAndroidのAPIを叩く</li>
-					</ul>
-					<ul>
-						<p>資産活用</p>
-						<li>バインディング(Java)</li>
-					</ul>
+				<section data-markdown>
+  				
+    <script>
+### iOSアプリ開発
+- 開発、ビルド、デバック
+  - Windows(VisualStudio)とMac
+  - Mac(Xamarin Studio)
+- 画面構成
+  - iOS Designerでstoryboardやxib
+  - C#で動的に記述
+- コード
+  - C#でiOSのAPIを叩く
+   </script>
+</section>
+ <section data-markdown>
+
+    <script>
+### Androidアプリ開発
+- 開発、ビルド、デバック
+  - Windows(VisualStudio)
+  - Mac(Xamarin Studio)
+- 画面構成
+  - UI Designerでxml
+  - C#で動的に記述
+- コード
+  - C#でAndroidのAPIを叩く
+   </script>
+</section>
 				</section>
 				<section>
-					<h2>アジェンダ</h2>
+					<h3>アジェンダ</h3>
 					<ul>
 						<li>Xamarinとは</li>
 						<li>Xamarinでの開発進め方</li>
 						<li><font color="red">Demo</font></li>
 						<li>既存開発との比較</li>
 						<li>もっと便利に</li>
-						<li>所感</li>
+						<li>まとめ</li>
 					</ul>
 				</section>
 				<section>
@@ -208,14 +204,14 @@
 					<p>Demo</p>
 				</section>
 				<section>
-					<h2>アジェンダ</h2>
+					<h3>アジェンダ</h3>
 					<ul>
 						<li>Xamarinとは</li>
 						<li>Xamarinでの開発進め方</li>
 						<li>Demo</li>
 						<li><font color="red">既存開発との比較</font></li>
 						<li>もっと便利に</li>
-						<li>所感</li>
+						<li>まとめ</li>
 					</ul>
 				</section>
 				<section>
@@ -245,6 +241,7 @@ public partial class iOSViewController : UIViewController
 				<section>
 					<h3>Xamarin</h3>
 					<p>Androidとの比較</p>
+							<tr>
 					<pre><code data-trim contenteditable>
 public class MainActivity : Activity
 {
@@ -257,6 +254,7 @@ public class MainActivity : Activity
 	}
 }
 					</code></pre>
+							</tr>
 				</section>
 				<section>
 					<p>ベンチマーク</p>
@@ -318,29 +316,29 @@ public class MainActivity : Activity
 					</table>
 				</section>
 				<section>
-					<h2>アジェンダ</h2>
+					<h3>アジェンダ</h3>
 					<ul>
 						<li>Xamarinとは</li>
 						<li>Xamarinでの開発進め方</li>
 						<li>Demo</li>
 						<li>既存開発との比較</li>
 						<li><font color="red">もっと便利に</font></li>
-						<li>所感</li>
+						<li>まとめ</li>
 					</ul>
 				</section>
 				<section>
 					<h3>もっと便利に</h3>
 					<p>Gradle Plugin</p>
 					<ul>
-						<li>各プレットフォームの実行ファイル生成</li>
+						<li>各プラットフォームの実行ファイル生成</li>
 						<li>テスト自動化</li>
-						<li>諸々</li>
 					</ul>
 				</section>
 				<section>
 					<h3>もっと便利に</h3>
-					<p>Nuget(.Netのパッケージマネージャ)</p>
+					<p>Nuget</p>
 					<ul>
+						<li>.Netのパッケージマネージャ</li>
 						<li>mavenレポジトリとか、podsみたいなもの</li>
 						<li>ライブラリ管理できる</li>
 						<li>gradle対応しているか微妙</li>
@@ -351,7 +349,7 @@ public class MainActivity : Activity
 					<p>MvvMCross</p>
 					<ul>
 						<li>プラットフォーム間での共有部分増える</li>
-						<li>入力後の画面の変化とか</li>
+						<li>入力後の画面の変化など</li>
 					</ul>
 				</section>
 				<section>
@@ -367,7 +365,9 @@ public class MainActivity : Activity
 					<p>まとめ</p>
 					<ul>
 						<li>既存の経験を生かしつつ、クロスプラットフォームできる</li>
-						<li>UI分けれるとか素敵</li>
+						<li>UI分けれるので各プラットフォームに最適化できる</li>
+						<li>共通割合が少ないのは、MvvMとかでカバー</li>
+						<li>テストの共通化が地味に嬉しい</li>
 					</ul>
 				</section>
 				<!-- Example of nested vertical slides -->
